@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon ./src/array/search-algorithms.ts"
+    "start": "nodemon ./src/array/sorting.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.6",

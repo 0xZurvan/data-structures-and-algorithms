@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-const words: string[] = ['JavaScript', 'TypeScript', 'React', 'Vue', 'Node.js', 'HTML', 'CSS', 'API', 'Database']
-const numbers: number[] = [1, 10, 42, 3, 7, 100, 2023, 14, 23]
+import { numbers, words } from './arrays'
+
 
 // Binary search
 function binarySearch<T>(array: T[], target: T): number | 'Not found' {
