@@ -1,0 +1,21 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./src/array/search-algorithms.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.4.6",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
